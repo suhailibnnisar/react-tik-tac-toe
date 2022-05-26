@@ -8,10 +8,10 @@ const style = {
 };
 
 const Square = (props) => {
-  const { value, handleClick } = props;
+  const { value, onClick } = props;
 
   return (
-    <button style={style} onClick={handleClick}>
+    <button style={style} onClick={onClick}>
       {value}
     </button>
   );
